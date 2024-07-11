@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background-color: brown;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-apps {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+.welcome p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.button-grup button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid brown;
+}
+
+button:hover {
+    background-color: brown;
+    color: white;
+}
+
+.container-contents {
+    width: 95%;
+    height: 1500px;
+    position: absolute;
+    top: 10%;
+    margin-bottom: 50px;
+}
+
+.add-books {
+    width: 100%;
+    box-shadow: 0 0 6px black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.add-books h2 {
+    text-align: center;
+}
+
+.form-book {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+
+.form-book input {
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid brown;
+}
+
+.form-check {
+    margin-left: 6px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-submit:hover {
+    background-color: brown;
+    color: white;
+}
+
+.search-book {
+    width: 100%;
+    box-shadow: 0 0 6px black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.search-book h3 {
+    text-align: center;
+}
+
+.search-book button {
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid brown;
+}
+
+.child-pencarian {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#pencarian-baru {
+    border-radius: 10px;
+    height: 30px;
+    border: 2px solid brown;
+}
+
+.new-submit {
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid brown;
+}
+
+.new-submit:hover {
+    background-color: brown;
+    color: white;
+}
+
+.container-rak {
+    width: 100%;
+    box-shadow: 0 0 6px black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 15px; 
+    margin-bottom: 10px;
+}
+
+.container-rak h2 {
+    text-align: center;
+}
+
+.list-books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-container {
+    width: 95%;
+    border-radius: 10px;
+    box-shadow: 0 0 6px black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.right-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.right-child button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid brown;
+}
+
+footer {
+    max-width: 100%;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    font-size: 8px;
+}
+
+/* Media Query Untuk Tampilan Tablet */
+@media screen and (min-width: 768px) {
+    .container {
+        height: 900px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+}
+
+/* Media Query Untuk Tampilan Dekstop */
+@media screen and (min-width: 1024px) {
+    .container {
+        height: 700px;
+    }
+
+    .container-contents {
+        max-width: 50%;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+}
+

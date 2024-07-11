@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bookshelf Apps</title>
+</head>
+<body>
+    <header>
+        <h1>Bookshelf Apps</h1>
+    </header>
+
+        <div class="container">
+            <div class="welcome-apps">
+                <div class="welcome">
+                    <p class="quest">Selamat Datang di Bookshelf Apps, Bagaimana Kabar Anda?</p>
+                </div>
+                
+                <div class="button-grup">
+                    <button class="unwell">Kurang Sehat</button>
+                    <button class="healthy">Sehat</button>
+                </div> 
+            </div>
+    
+            <div class="container-contents" hidden>
+                <div class="add-books">
+                    <h2>Tambahkan Daftar Buku Baru</h2>
+                    <form action="" class="form">
+                        <div class="form-book">
+                            <label for="judul">Judul</label>
+                            <input type="text" name="judul" id="judul">
+                        </div>
+                        <div class="form-book">
+                            <label for="penulis">Penulis</label>
+                            <input type="text" name="penulis" id="penulis">
+                        </div>
+                        <div class="form-book">
+                            <label for="tahun">Tahun</label>
+                            <input type="number" name="tahun" id="tahun">
+                        </div>
+                        <div class="form-check">
+                            <label for="already-read">Sudah Dibaca</label>
+                            <input type="checkbox" name="already-read" id="already-read">
+                        </div>
+                        <div class="form-book">
+                            <input type="submit" class="btn-submit">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="search-book">
+                    <h3 class="want-search">Apakah Anda Ingin Mencari Buku?</h3>
+                    <button class="search">Cari</button>
+                    <button class="dont-search">Tidak</button>
+                    <div class="pencarian" hidden>
+                        <div class="child-pencarian">
+                            <label for="pencarian-baru">Judul</label>
+                            <input type="text" name="pencarian-baru" id="pencarian-baru">
+                            <input type="submit" class="new-submit">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="container-rak">
+                    <h2>Belum Selesai Dibaca</h2>
+                    <div class="list-books" id="books">
+    
+                    </div>
+                </div>
+                
+                <div class="container-rak">
+                    <h2>Sudah Selesai Dibaca</h2>
+                    <div class="list-books" id="completed-books">
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <footer>
+        <p>Projek Akhir Kelas Belajar Membuat Front-End Web untuk Pemula &#169; 2023, Gilang Herdiansyah Saputra</p>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
